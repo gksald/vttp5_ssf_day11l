@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>23</java.version> <!-- by default will use jar but if want eg war instead need add urself -->
+		<java.version>21</java.version> <!-- by default will use jar but if want eg war instead need add urself -->
 	</properties>
 	<dependencies>
 		<dependency>

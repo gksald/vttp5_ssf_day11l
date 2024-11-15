@@ -37,3 +37,12 @@ mvnw.cmd clean package <br/>
 run the application in embedded localhost server <br /> run application in embedded localhost server (test mode) (runningthe code w/o any args)
 ./mvnw spring-boot:run
 mvnw.cmd spring-boot:run
+
+to run and trace the log level
+./mvnw spring-boot:run -Dspring-boot.run.arguments="--port=4000 --logLevel=TRACE"
+
+# Railway
+1. railway login --browserless
+2. railway link // need to create project on railway first
+3. railway up
+--> execute in command promt in root folder.
